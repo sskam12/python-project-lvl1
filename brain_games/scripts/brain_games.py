@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 def hello():
     print("Welcome to the Brain Games!")
 def main():
