@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
 
-"""Yes or no game."""
+"""Calculator game."""
 
 
-from brain_games.games.even import description, game_with_answers
+from brain_games.games.calc import description, game_with_answers
 from brain_games.main_logic import main_logic
 
 
