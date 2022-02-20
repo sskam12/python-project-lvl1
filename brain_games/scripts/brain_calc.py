@@ -9,6 +9,7 @@ from brain_games.main_logic import main_logic
 
 
 def main():
+    """Сonnection to the main function."""
     main_logic(game_with_answers, description)
 
 
