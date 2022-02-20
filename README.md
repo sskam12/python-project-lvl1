@@ -5,4 +5,8 @@
 
 [![Linter test](https://github.com/sskam12/python-project-lvl1/actions/workflows/linter-test.yml/badge.svg)](https://github.com/sskam12/python-project-lvl1/actions/workflows/linter-test.yml)
 
-Asciinema brain-even: https://asciinema.org/a/vCNQLMaOPsgRiBDSPbxHYHG4K
+Asciinema with different outcomes:
+
+brain-even: https://asciinema.org/a/vCNQLMaOPsgRiBDSPbxHYHG4K
+
+brain-calc: https://asciinema.org/a/BE8YWE21bW43uxrCbafzcBxzY
