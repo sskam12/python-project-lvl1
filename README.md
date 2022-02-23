@@ -10,3 +10,9 @@ Asciinema with different outcomes:
 brain-even: https://asciinema.org/a/vCNQLMaOPsgRiBDSPbxHYHG4K
 
 brain-calc: https://asciinema.org/a/BE8YWE21bW43uxrCbafzcBxzY
+
+brain-gcd: https://asciinema.org/a/Nnr0OJAelJohRlpsgTETPM79D
+
+brain-progression: https://asciinema.org/a/HoX8wvCWEsY9CLRtvHEB6hyBy
+
+brain-prime: https://asciinema.org/a/26wHss1ZTCtpdwwDpp2Et8xM3
