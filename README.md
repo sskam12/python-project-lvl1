@@ -7,6 +7,9 @@
 
 ### Brain games
 
+## Installing
+[![asciicast](https://asciinema.org/a/tD32c9z15pg2KhiXz9EBIYrpL.png)](https://asciinema.org/a/tD32c9z15pg2KhiXz9EBIYrpL)
+
 ## Asciinema with different outcomes
 
 ### brain-even
