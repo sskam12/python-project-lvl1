@@ -9,7 +9,7 @@ from brain_games.main_logic import main_logic
 
 
 def main():
-    """Brain even game."""
+    """Start even game."""
     main_logic(game_with_answers, description)
 
 
