@@ -5,25 +5,27 @@
 
 [![Linter test](https://github.com/sskam12/python-project-lvl1/actions/workflows/linter-test.yml/badge.svg)](https://github.com/sskam12/python-project-lvl1/actions/workflows/linter-test.yml)
 
+### Brain games
+
 ## Asciinema with different outcomes
 
 ### brain-even
-Игра на определение четного числа: да - число четное, нет - нечетное. 
+The game of determining an even number: yes - the number is even, no - odd. 
 [![asciicast](https://asciinema.org/a/MWEQMeZE0TtgSB7GEFxChRRTk.png)](https://asciinema.org/a/MWEQMeZE0TtgSB7GEFxChRRTk)
 
 ### brain-calc 
-Игра на сложение, вычитание или умножение двух чисел. 
+A game of addition, subtraction or multiplication of two numbers.
 [![asciicast](https://asciinema.org/a/BE8YWE21bW43uxrCbafzcBxzY.png)](https://asciinema.org/a/BE8YWE21bW43uxrCbafzcBxzY)
 
 ### brain-gcd
-Игра на определение наибольшего общего делителя.
+The game of determining the greatest common divisor.
 [![asciicast](https://asciinema.org/a/Nnr0OJAelJohRlpsgTETPM79D.png)](https://asciinema.org/a/Nnr0OJAelJohRlpsgTETPM79D)
 
 ### brain-progression
-Игра на нахождение недостающего числа в арифметической прогрессии. 
+A game of finding the missing number in an arithmetic progression. 
 [![asciicast](https://asciinema.org/a/HoX8wvCWEsY9CLRtvHEB6hyBy.png)](https://asciinema.org/a/HoX8wvCWEsY9CLRtvHEB6hyBy)
 
 ### brain-prime
-Игра на определение простого числа.
+A game for determining a prime number.
 [![asciicast](https://asciinema.org/a/26wHss1ZTCtpdwwDpp2Et8xM3.png)](https://asciinema.org/a/26wHss1ZTCtpdwwDpp2Et8xM3)
 
