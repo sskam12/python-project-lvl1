@@ -5,19 +5,30 @@ from random import randint
 description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
+def is_prime(number):
+    """Identify prime number.
+
+    Args:
+        number: random number from 1 to 100.
+
+    Returns:
+        True if the number is prime, else - False.
+    """
+    number_of_divider = 0
+    if number == 1:
+        return False
+    for num in range(2, (number // 2 + 1)):
+        if (number % num == 0):
+            number_of_divider += 1
+    return number_of_divider == 0
+
+
 def get_question_and_answer():
     """Find prime number.
 
     Returns:
         The question and correct answer.
     """
-    question = randint(1, 100)
-    number_of_divider = 0
-    for number in range(2, question):
-        if (question % number == 0):
-            number_of_divider += 1
-    if number_of_divider == 0:
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
-    return question, correct_answer
+    number = randint(1, 100)
+    question = str(number)
+    return question, is_prime(number)

@@ -13,8 +13,5 @@ def get_question_and_answer():
         The question and correct answer.
     """
     question = randint(1, 100)
-    if question % 2 != 0:
-        correct_answer = 'no'
-    elif question % 2 == 0:
-        correct_answer = 'yes'
+    correct_answer = 'no' if question % 2 else 'yes'
     return question, correct_answer
