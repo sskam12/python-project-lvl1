@@ -11,15 +11,15 @@ def get_question_and_answer():
     Returns:
         The question and correct answer.
     """
-    number_of_elements = 11
+    length = 11
     step = randint(1, 100)
-    first_element = randint(1, 100)
-    arithm_prog = range(
-        first_element, first_element + step * (number_of_elements - 1), step,
+    start = randint(1, 100)
+    progression = range(
+        start, start + step * (length - 1), step,
     )
-    arithm_prog = list(arithm_prog)
-    correct_answer = choice(arithm_prog)
-    arithm_prog[arithm_prog.index(correct_answer)] = str('..')
+    progression = list(progression)
+    correct_answer = choice(progression)
+    progression[progression.index(correct_answer)] = str('..')
     correct_answer = str(correct_answer)
-    question = '{0} {1} {2} {3} {4} {5} {6} {7} {8} {9}'.format(*arithm_prog)
+    question = ' '.join(map(str, progression))
     return question, correct_answer
