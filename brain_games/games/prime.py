@@ -31,4 +31,5 @@ def get_question_and_answer():
     """
     number = randint(1, 100)
     question = str(number)
-    return question, is_prime(number)
+    correct_answer = 'yes' if is_prime(number) is True else 'no'
+    return question, correct_answer
