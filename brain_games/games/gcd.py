@@ -1,9 +1,9 @@
 """GCD game."""
 
-from random import randint
 from math import gcd
+from random import randint
 
-description = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def get_question_and_answer():

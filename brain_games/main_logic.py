@@ -6,20 +6,19 @@ import prompt
 ROUND_COUNT = 3
 
 
-def run_game(get_question_and_answer, description):
+def run_game(game):
     """Greeting of user.
 
     Args:
-        description: The description of game.
-        get_question_and_answer: The logic of games.
+        game: run game.
     """
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))
-    print(description)
+    print(game.DESCRIPTION)
     round_number = 1
     while round_number <= ROUND_COUNT:
-        question, correct_answer = get_question_and_answer()
+        question, correct_answer = game.get_question_and_answer()
         print('Question: {0}'.format(question))
         given_answer = prompt.string('Your answer: ')
         if given_answer == correct_answer:
