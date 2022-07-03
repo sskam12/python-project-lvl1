@@ -5,7 +5,7 @@ from random import randint
 description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game_with_answers():
+def get_question_and_answer():
     """Find prime number.
 
     Returns:

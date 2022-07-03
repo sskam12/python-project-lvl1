@@ -5,7 +5,7 @@ from random import randint
 description = 'Find the greatest common divisor of given numbers.'
 
 
-def game_with_answers():
+def get_question_and_answer():
     """Find GCD.
 
     Returns:

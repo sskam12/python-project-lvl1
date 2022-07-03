@@ -5,7 +5,7 @@ from random import choice, randint
 description = 'What number is missing in the progression?'
 
 
-def game_with_answers():
+def get_question_and_answer():
     """Progression game.
 
     Returns:

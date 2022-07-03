@@ -6,7 +6,7 @@ from random import randint
 description = 'Answer "yes" if the number is even, otherwise answer "no"'
 
 
-def game_with_answers():
+def get_question_and_answer():
     """Brain even game.
 
     Returns:
