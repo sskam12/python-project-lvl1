@@ -7,6 +7,8 @@
 
 ## Brain games
 
+Brain Games is a collection of 5 games for brain development: Even, Calculator, GCD, Progression, Prime.
+
 ### Installing
 [![asciicast](https://asciinema.org/a/tD32c9z15pg2KhiXz9EBIYrpL.png)](https://asciinema.org/a/tD32c9z15pg2KhiXz9EBIYrpL)
 
