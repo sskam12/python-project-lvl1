@@ -14,15 +14,14 @@ def get_question_and_answer():
     """
     random_number1 = randint(1, 100)
     random_number2 = randint(1, 100)
-    random_operation = choice(['+', '-', '*'])
-    question = '{a} {b} {c}'.format(
-        a=random_number1, b=random_operation, c=random_number2,
-    )
-    operators = {
+    operations, operators = {
         '+': operator.add,
         '-': operator.sub,
         '*': operator.mul,
     }
+    random_operation = choice(list(operations.keys()))
+    question = '{a} {b} {c}'.format(
+        a=random_number1, b=random_operation, c=random_number2,
+    )
     correct_answer = operators[random_operation](random_number1, random_number2)
-    correct_answer = str(correct_answer)
-    return question, correct_answer
+    return question, str(correct_answer)
