@@ -14,8 +14,6 @@ def get_question_and_answer():
     """
     random_number1 = randint(0, 100)
     random_number2 = randint(0, 100)
-    question = '{a} {b}'.format(
-        a=random_number1, b=random_number2,
-    )
+    question = f'{random_number1} {random_number2}'
     correct_answer = gcd(random_number1, random_number2)
     return question, str(correct_answer)
