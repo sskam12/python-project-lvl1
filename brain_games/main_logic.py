@@ -24,7 +24,7 @@ def run_game(game):
         if given_answer == correct_answer:
             print('Correct!')
             round_number += 1
-        else:
+        if given_answer != correct_answer:
             print(
                 f"'{given_answer}' is wrong answer ;(."
                 + f" Correct answer was '{correct_answer}'.\n"
