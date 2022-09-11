@@ -14,7 +14,7 @@ def get_question_and_answer():
     """
     random_number1 = randint(1, 100)
     random_number2 = randint(1, 100)
-    operations, operators = {
+    operations = {
         '+': operator.add,
         '-': operator.sub,
         '*': operator.mul,
@@ -23,5 +23,7 @@ def get_question_and_answer():
     question = '{a} {b} {c}'.format(
         a=random_number1, b=random_operation, c=random_number2,
     )
-    correct_answer = operators[random_operation](random_number1, random_number2)
+    correct_answer = operations[random_operation](
+        random_number1, random_number2,
+    )
     return question, str(correct_answer)
