@@ -20,9 +20,7 @@ def get_question_and_answer():
         '*': operator.mul,
     }
     random_operation = choice(list(operations.keys()))
-    question = '{a} {b} {c}'.format(
-        a=random_number1, b=random_operation, c=random_number2,
-    )
+    question = f'{random_number1} {random_operation} {random_number2}'
     correct_answer = operations[random_operation](
         random_number1, random_number2,
     )

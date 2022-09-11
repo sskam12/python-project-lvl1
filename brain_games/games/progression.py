@@ -11,11 +11,11 @@ def get_question_and_answer():
     Returns:
         The question and correct answer.
     """
-    length = 11
+    length = 10
     step = randint(1, 100)
     start = randint(1, 100)
     progression = range(
-        start, start + step * (length - 1), step,
+        start, start + step * length, step,
     )
     progression = list(progression)
     correct_answer = choice(progression)
