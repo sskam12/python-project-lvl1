@@ -14,21 +14,22 @@ def run_game(game):
     """
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(name))
+    print(f'Hello, {name}!')
     print(game.DESCRIPTION)
     round_number = 1
     while round_number <= ROUND_COUNT:
         question, correct_answer = game.get_question_and_answer()
-        print('Question: {0}'.format(question))
+        print(f'Question: {question}')
         given_answer = prompt.string('Your answer: ')
         if given_answer == correct_answer:
             print('Correct!')
             round_number += 1
         else:
-            print("{a} is wrong answer ;(. Correct answer was '{b}'.".format(
-                a=given_answer, b=correct_answer,
-            ))
-            print("Let's try again, {c}!".format(c=name))
+            print(
+                f"'{given_answer}' is wrong answer ;(."
+                + f" Correct answer was '{correct_answer}'.\n"
+                + f"Let's try again, {name}!",
+            )
             break
     else:
-        print('Congratulations, {0}!'.format(name))
+        print(f'Congratulations, {name}!')
