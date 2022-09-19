@@ -16,14 +16,12 @@ def run_game(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
-    round_number = 1
-    while round_number <= ROUND_COUNT:
+    for _ in range(ROUND_COUNT):
         question, correct_answer = game.get_question_and_answer()
         print(f'Question: {question}')
         given_answer = prompt.string('Your answer: ')
         if given_answer == correct_answer:
             print('Correct!')
-            round_number += 1
         if given_answer != correct_answer:
             print(
                 f"'{given_answer}' is wrong answer ;(."
