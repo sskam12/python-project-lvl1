@@ -14,13 +14,12 @@ def is_prime(number):
     Returns:
         True if the number is prime, else - False.
     """
-    number_of_divider = 0
     if number == 1:
         return False
     for num in range(2, (number // 2 + 1)):
         if (number % num == 0):
-            number_of_divider += 1
-    return number_of_divider == 0
+            return False
+    return True
 
 
 def get_question_and_answer():
