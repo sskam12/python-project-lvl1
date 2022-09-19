@@ -14,10 +14,8 @@ def get_question_and_answer():
     length = 10
     step = randint(1, 100)
     start = randint(1, 100)
-    progression = range(
-        start, start + step * length, step,
-    )
-    progression = list(progression)
+    end = start + step * length
+    progression = list(range(start, end, step))
     hidden_index = randrange(0, length)
     correct_answer, progression[hidden_index] = progression[hidden_index], '..'
     question = ' '.join(map(str, progression))
